@@ -1,6 +1,6 @@
 import random
 
-with open("./wordlist.txt", 'r') as f:
+with open ("wordlist.txt", 'r', encoding='utf-8') as f:
     words = f.readlines()
 
 word = random.choice(words)[:-1]

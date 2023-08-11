@@ -1,4 +1,9 @@
-word = "Secret"
+import random
+
+with open('wordlist.txt', "r") as f:
+    words = f.readlines()
+
+word = random.choice(words)[:-1]
 
 allowed_errors = 7
 guesses = []

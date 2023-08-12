@@ -1,6 +1,6 @@
 import random
 
-with open ("wordlist.txt", 'r', encoding='utf-8') as f:
+with open ('wordlist.txt', 'r') as f:
     words = f.readlines()
 
 word = random.choice(words)[:-1]
@@ -14,7 +14,7 @@ while not done:
         if letter.lower() in guesses:
             print(letter, end=" ")
         else:
-            print('_', end="")
+            print('_', end=" ")
 
     print("")
     done = True
@@ -25,7 +25,7 @@ while not done:
         allowed_errors -= 1
         if allowed_errors == 0:
             break
-    
+
     done = True
     for letter in word:
         if letter.lower() not in guesses:

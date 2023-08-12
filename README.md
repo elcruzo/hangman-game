@@ -5,6 +5,7 @@ Welcome to this repository containing a hangman game built in Python. The game t
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Dependencies](#dependencies)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Example](#example)

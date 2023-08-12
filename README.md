@@ -54,6 +54,8 @@ To run this implementation, you need:
 
 6. Upon execution, the script will present a pop-up displaying a text input field represented with underscores in which you type in a letter and submit your guess.
 
+7. If you run into any errors saying "FileNotFoundError: [Errno 2] No such file or directory", replace the path of the "wordlist.txt" (on the third line of the script) with it's relative path on your local machine.
+
 ## Example
 
 Here's a brief example of how to run the code:
